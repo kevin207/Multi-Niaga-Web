@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/Multi-Niaga-Web/static/css/main.750f1a75.css",
-    "main.js": "/Multi-Niaga-Web/static/js/main.56c53426.js",
-    "static/media/1.jpg": "/Multi-Niaga-Web/static/media/1.16f6c82cde554102f667.jpg",
-    "static/media/3.jpg": "/Multi-Niaga-Web/static/media/3.2c89ab5cfea28995b59d.jpg",
+    "main.css": "/Multi-Niaga-Web/static/css/main.c3d160e4.css",
+    "main.js": "/Multi-Niaga-Web/static/js/main.db7f4d86.js",
+    "static/media/1.jpg": "/Multi-Niaga-Web/static/media/1.2c89ab5cfea28995b59d.jpg",
+    "static/media/3.jpg": "/Multi-Niaga-Web/static/media/3.c7fb430dd26c8d048c16.jpg",
     "static/media/5.jpg": "/Multi-Niaga-Web/static/media/5.d1f8a1504e914af2b241.jpg",
     "static/media/about.jpg": "/Multi-Niaga-Web/static/media/about.4204ac493e7bfac83d8e.jpg",
-    "static/media/2.jpg": "/Multi-Niaga-Web/static/media/2.c7fb430dd26c8d048c16.jpg",
+    "static/media/2.jpg": "/Multi-Niaga-Web/static/media/2.16f6c82cde554102f667.jpg",
     "static/media/4.jpg": "/Multi-Niaga-Web/static/media/4.052ebfbb4d4413ecce02.jpg",
     "static/media/header.jpg": "/Multi-Niaga-Web/static/media/header.b16dfd12098b586088e3.jpg",
     "static/media/produk.jpg": "/Multi-Niaga-Web/static/media/produk.90486f46ef52cd667687.jpg",
     "static/media/promo3.jpg": "/Multi-Niaga-Web/static/media/promo3.e7822fbd813d1ba3cba3.jpg",
-    "static/media/property3.jpg": "/Multi-Niaga-Web/static/media/property3.d80cf54b84a7e9101d2b.jpg",
-    "static/media/property2.jpg": "/Multi-Niaga-Web/static/media/property2.04828a2b7fcecf3a1f8b.jpg",
-    "static/media/property1.jpg": "/Multi-Niaga-Web/static/media/property1.b38f2d18113ecc3ddba5.jpg",
+    "static/media/property1.jpg": "/Multi-Niaga-Web/static/media/property1.d80cf54b84a7e9101d2b.jpg",
+    "static/media/property3.jpg": "/Multi-Niaga-Web/static/media/property3.04828a2b7fcecf3a1f8b.jpg",
+    "static/media/property2.jpg": "/Multi-Niaga-Web/static/media/property2.b38f2d18113ecc3ddba5.jpg",
     "static/media/promo2.jpg": "/Multi-Niaga-Web/static/media/promo2.83c72b90240d731d5b34.jpg",
     "static/media/promo1.jpg": "/Multi-Niaga-Web/static/media/promo1.180d814987205847c13b.jpg",
     "index.html": "/Multi-Niaga-Web/index.html",
-    "main.750f1a75.css.map": "/Multi-Niaga-Web/static/css/main.750f1a75.css.map",
-    "main.56c53426.js.map": "/Multi-Niaga-Web/static/js/main.56c53426.js.map"
+    "main.c3d160e4.css.map": "/Multi-Niaga-Web/static/css/main.c3d160e4.css.map",
+    "main.db7f4d86.js.map": "/Multi-Niaga-Web/static/js/main.db7f4d86.js.map"
   },
   "entrypoints": [
-    "static/css/main.750f1a75.css",
-    "static/js/main.56c53426.js"
+    "static/css/main.c3d160e4.css",
+    "static/js/main.db7f4d86.js"
   ]
 }
