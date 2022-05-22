@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Multi-Niaga-Web/static/css/main.4a1d6518.css",
-    "main.js": "/Multi-Niaga-Web/static/js/main.6fd2d5cf.js",
+    "main.css": "/Multi-Niaga-Web/static/css/main.e94444bd.css",
+    "main.js": "/Multi-Niaga-Web/static/js/main.6e318f37.js",
     "static/media/1.jpg": "/Multi-Niaga-Web/static/media/1.2c89ab5cfea28995b59d.jpg",
     "static/media/3.jpg": "/Multi-Niaga-Web/static/media/3.c7fb430dd26c8d048c16.jpg",
     "static/media/5.jpg": "/Multi-Niaga-Web/static/media/5.d1f8a1504e914af2b241.jpg",
@@ -9,22 +9,19 @@
     "static/media/4.jpg": "/Multi-Niaga-Web/static/media/4.052ebfbb4d4413ecce02.jpg",
     "static/media/about.jpg": "/Multi-Niaga-Web/static/media/about.12207bc55a2a83faac9a.jpg",
     "static/media/header.jpg": "/Multi-Niaga-Web/static/media/header.c432bc8e69981ed05eff.jpg",
-    "static/media/promo3.jpg": "/Multi-Niaga-Web/static/media/promo3.e7822fbd813d1ba3cba3.jpg",
     "static/media/property1.jpg": "/Multi-Niaga-Web/static/media/property1.d80cf54b84a7e9101d2b.jpg",
     "static/media/property3.jpg": "/Multi-Niaga-Web/static/media/property3.04828a2b7fcecf3a1f8b.jpg",
     "static/media/property2.jpg": "/Multi-Niaga-Web/static/media/property2.b38f2d18113ecc3ddba5.jpg",
     "static/media/B3.png": "/Multi-Niaga-Web/static/media/B3.341ab12eef1bd804eec2.png",
-    "static/media/promo2.jpg": "/Multi-Niaga-Web/static/media/promo2.83c72b90240d731d5b34.jpg",
-    "static/media/promo1.jpg": "/Multi-Niaga-Web/static/media/promo1.180d814987205847c13b.jpg",
     "static/media/B2.png": "/Multi-Niaga-Web/static/media/B2.1dffc250b2afe54beaa9.png",
     "static/media/brand.png": "/Multi-Niaga-Web/static/media/brand.94a02f6ceb0e91a36dd5.png",
     "static/media/B1.png": "/Multi-Niaga-Web/static/media/B1.749ea62bc2d48b22bc85.png",
     "index.html": "/Multi-Niaga-Web/index.html",
-    "main.4a1d6518.css.map": "/Multi-Niaga-Web/static/css/main.4a1d6518.css.map",
-    "main.6fd2d5cf.js.map": "/Multi-Niaga-Web/static/js/main.6fd2d5cf.js.map"
+    "main.e94444bd.css.map": "/Multi-Niaga-Web/static/css/main.e94444bd.css.map",
+    "main.6e318f37.js.map": "/Multi-Niaga-Web/static/js/main.6e318f37.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a1d6518.css",
-    "static/js/main.6fd2d5cf.js"
+    "static/css/main.e94444bd.css",
+    "static/js/main.6e318f37.js"
   ]
 }
