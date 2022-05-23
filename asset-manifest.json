@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Multi-Niaga-Web/static/css/main.7c66c8af.css",
-    "main.js": "/Multi-Niaga-Web/static/js/main.1eb45668.js",
+    "main.css": "/Multi-Niaga-Web/static/css/main.77547880.css",
+    "main.js": "/Multi-Niaga-Web/static/js/main.2ccf29a0.js",
     "static/media/1.jpg": "/Multi-Niaga-Web/static/media/1.2c89ab5cfea28995b59d.jpg",
     "static/media/3.jpg": "/Multi-Niaga-Web/static/media/3.c7fb430dd26c8d048c16.jpg",
     "static/media/5.jpg": "/Multi-Niaga-Web/static/media/5.d1f8a1504e914af2b241.jpg",
@@ -17,11 +17,11 @@
     "static/media/brand.png": "/Multi-Niaga-Web/static/media/brand.94a02f6ceb0e91a36dd5.png",
     "static/media/B1.png": "/Multi-Niaga-Web/static/media/B1.749ea62bc2d48b22bc85.png",
     "index.html": "/Multi-Niaga-Web/index.html",
-    "main.7c66c8af.css.map": "/Multi-Niaga-Web/static/css/main.7c66c8af.css.map",
-    "main.1eb45668.js.map": "/Multi-Niaga-Web/static/js/main.1eb45668.js.map"
+    "main.77547880.css.map": "/Multi-Niaga-Web/static/css/main.77547880.css.map",
+    "main.2ccf29a0.js.map": "/Multi-Niaga-Web/static/js/main.2ccf29a0.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c66c8af.css",
-    "static/js/main.1eb45668.js"
+    "static/css/main.77547880.css",
+    "static/js/main.2ccf29a0.js"
   ]
 }
