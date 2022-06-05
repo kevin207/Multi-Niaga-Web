@@ -1,0 +1,446 @@
+.card-container {
+  border-radius: 0.5rem;
+  display: grid;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+  width: 100%;
+  background: rgb(233, 233, 233);
+}
+.card-container:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.card-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: 1px solid rgb(151, 149, 149, 0.5);
+}
+.card-img {
+  border-bottom-right-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+  height: 13rem;
+}
+.card-bottom {
+  padding: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom-text {
+  font-size: 0.7rem;
+}
+.card-desc {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.property-desc-title {
+  padding: 0.5rem 1rem 0.2rem 1rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #fcbd40;
+}
+.property-desc {
+  padding: 0 1rem;
+  font-size: 0.7rem;
+}
+.property-title {
+  font-weight: bold;
+  border-bottom: 1px solid rgb(151, 149, 149, 0.5);
+  text-align: center;
+  padding: 0.7rem 1rem;
+}
+.property-address {
+  font-size: 0.65rem;
+  padding: 0.7rem;
+}
+.property-address-icon {
+  font-size: 1.5rem;
+  color: #364954;
+}
+.property-price {
+  font-size: 0.8rem;
+}
+.property-facilities {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+.facilitiy {
+  display: flex;
+  gap: 0.2rem;
+  align-items: center;
+  font-size: 0.8rem;
+}
+.icon-1 {
+  color: #364954;
+  font-size: 1.1rem;
+}
+.icon-2 {
+  color: #364954;
+  font-size: 0.9rem;
+}
+.luas-wrap {
+  display: flex;
+  gap: 0.5rem;
+}
+
+/* MODAL */
+.modal-content {
+  width: 60rem !important;
+  height: 38rem;
+  margin: auto !important;
+}
+.modal-dialog {
+  max-width: none !important;
+  margin: auto !important;
+}
+.modal-body {
+  padding-top: 2rem !important;
+  padding-bottom: 0rem !important;
+}
+.modal_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.card-img-modal {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  border-radius: 0.5rem;
+}
+.modal-container-right {
+  margin-left: 1rem;
+}
+
+/* CAROUSEL */
+.carousel .slide img {
+  width: 90% !important;
+  height: 20rem !important;
+}
+.carousel .carousel-status {
+  margin-right: 2.5rem;
+}
+.carousel .thumbs-wrapper {
+  margin-bottom: 0rem !important;
+}
+ol,
+ul {
+  padding-left: 0 !important;
+}
+/* END CAROUSEL */
+
+.modal-desc-title {
+  color: #fcbd40;
+  font-size: 1.4rem;
+}
+.modal-desc {
+  margin-top: 0.5rem;
+  padding-right: 2rem;
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+  text-align: justify;
+}
+.modal-desc-wrap {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+.modal-icon-desc {
+  font-size: 1.5rem;
+  color: #364954;
+}
+.modal-desc-icon {
+  font-size: 0.9rem;
+  margin-bottom: 0 !important;
+  color: #364954;
+}
+.modal-etc-title {
+  margin-top: 2rem;
+  font-weight: bold;
+  color: #fcbd40;
+}
+.modal-etc-desc {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  padding-right: 1rem;
+}
+.modal-footer {
+  justify-content: space-between !important;
+}
+.modal-facilities {
+  display: flex;
+  gap: 1rem;
+}
+.luas-icon {
+  margin-left: 17rem;
+  font-size: 0.9rem;
+  color: #364954;
+}
+.icon-1-modal {
+  font-size: 1.25rem;
+  color: #364954;
+}
+.icon-2-modal {
+  font-size: 1.1rem;
+  color: #364954;
+
+  margin-right: 32vw;
+}
+.bottom-right-modal {
+  display: flex;
+  gap: 1rem;
+}
+
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+@media screen and (max-width: 1024px) {
+  .property-desc-title {
+    font-size: 0.9rem;
+  }
+  .property-desc {
+    font-size: 0.8rem;
+  }
+  .property-address {
+    font-size: 0.8rem;
+  }
+  .property-address-icon {
+    font-size: 1.5rem;
+    color: #364954;
+  }
+
+  /* MODAL */
+  .modal-content {
+    width: 45rem !important;
+    height: 30rem;
+    margin: auto !important;
+  }
+  .modal-body {
+    padding: 1rem 2rem 1rem 0 !important;
+  }
+  /* MODAL END */
+
+  /* CAREOUSEL */
+  .carousel .slide img {
+    width: 90% !important;
+    height: 13rem !important;
+  }
+  .carousel .thumbs-wrapper {
+    margin: 20px 0 0 10px !important;
+  }
+  .carousel .thumb {
+    margin: 0 !important;
+  }
+  .thumb,
+  .thumb.selected {
+    width: 65px !important;
+  }
+  .carousel .carousel-status {
+    margin-right: 1.5rem;
+  }
+  /* END CAROUSEL */
+
+  .modal-desc-title {
+    color: #c8ad23;
+    font-size: 1.2rem;
+  }
+  .modal-desc {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+    text-align: justify;
+  }
+  .modal-desc-wrap {
+    display: flex;
+    align-items: center;
+    margin-top: 0.8rem;
+  }
+  .modal-icon-desc {
+    font-size: 1rem;
+  }
+  .modal-desc-icon {
+    font-size: 0.8rem;
+    margin-bottom: 0 !important;
+  }
+  .modal-etc-title {
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #c8ad23;
+    font-size: 0.95rem;
+  }
+  .modal-etc-desc {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+  }
+  .modal-footer {
+    justify-content: space-between !important;
+  }
+  .modal-facilities {
+    display: flex;
+    gap: 1rem;
+  }
+  .luas-icon {
+    margin-left: 7rem;
+  }
+  .bottom-right-modal {
+    display: flex;
+    gap: 1rem;
+  }
+  .icon-1-modal {
+    font-size: 1.1rem;
+    color: #364954;
+  }
+  .icon-2-modal {
+    font-size: 1rem;
+    color: #364954;
+  }
+}
+
+/* MEDIA QUERIES (SMALL DEVICES) */
+@media screen and (max-width: 600px) {
+  .modal-header {
+    padding: 0.5rem !important;
+  }
+  .h4,
+  h4 {
+    font-size: 1rem !important;
+  }
+
+  .modal-content {
+    width: 22rem !important;
+    height: 40rem;
+    margin: auto !important;
+  }
+  .modal_container {
+    display: flex;
+    flex-direction: column;
+  }
+  .modal-body {
+    padding: 0.8rem 0 !important;
+  }
+  .modal-right-content {
+    padding-right: 1rem;
+  }
+
+  .modal-desc-title {
+    font-size: 1rem;
+  }
+  .modal-desc {
+    font-size: 0.7rem;
+    margin-bottom: 0.5rem;
+  }
+  .modal-desc-wrap {
+    margin-top: 0rem;
+  }
+  .modal-icon-desc {
+    font-size: 1rem;
+  }
+  .modal-desc-icon {
+    font-size: 0.7rem;
+    margin-bottom: 0 !important;
+  }
+  .modal-etc-title {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+  }
+  .modal-etc-desc {
+    margin-top: 0.2rem;
+    font-size: 0.7rem;
+  }
+  .modal-footer {
+    justify-content: space-between !important;
+    flex-wrap: nowrap !important;
+  }
+  .modal-facilities {
+    display: flex;
+    gap: 0.5rem;
+  }
+  .luas-icon {
+    margin-left: 1rem;
+  }
+  .bottom-right-modal {
+    gap: 0.5rem;
+  }
+  .btn.btn-primary {
+    width: 4rem !important;
+    font-size: 0.6rem !important;
+  }
+  .icon-1-modal {
+    font-size: 0.95rem;
+  }
+  .icon-2-modal {
+    font-size: 0.85rem;
+    margin-right: 3vw;
+  }
+  /* CAREOUSEL */
+  .carousel .slide img {
+    width: 80% !important;
+    height: 12.5rem !important;
+  }
+  .carousel .thumbs-wrapper {
+    margin: 15px 0 0 50px !important;
+  }
+  .carousel .thumb {
+    margin: 0 !important;
+  }
+  .thumb,
+  .thumb.selected {
+    width: 50px !important;
+  }
+  .carousel .carousel-status {
+    margin-right: 3.8rem;
+  }
+  /* END CAROUSEL */
+
+  /* OUTER */
+  .card-img {
+    width: 100%;
+    height: 100%;
+  }
+  .property-desc-title {
+    font-size: 0.6rem;
+    padding: 0.5rem 0.7rem 0.1rem 0.7rem;
+  }
+  .property-desc {
+    font-size: 0.5rem;
+    padding: 0 0.7rem;
+  }
+  .property-address {
+    font-size: 0.45rem;
+    padding: 0.45rem;
+  }
+  .property-address-icon {
+    font-size: 1rem;
+    color: #364954;
+  }
+  .property-title {
+    font-size: 0.7rem;
+    padding: 0.5rem;
+  }
+  .property-price {
+    font-size: 0.6rem;
+  }
+  .facilities {
+    font-size: 0.6rem;
+  }
+  .facilitiy {
+    gap: 0.2rem;
+    align-items: center;
+    font-size: 0.6rem;
+  }
+  .icon-1 {
+    font-size: 0.75rem;
+  }
+  .icon-2 {
+    font-size: 0.65rem;
+  }
+  .card-bottom {
+    padding: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .bottom-text {
+    font-size: 0.58rem;
+  }
+  /* OUTER */
+}

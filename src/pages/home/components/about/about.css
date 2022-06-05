@@ -1,0 +1,111 @@
+.about {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  height: 100%;
+}
+
+.left-about {
+  background: #364954;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  box-shadow: 6px 0 4px -4px rgba(16, 16, 16, 0.561), -6px 0 4px -4px rgb(36, 36, 36);
+}
+
+.about-title {
+  color: #dbdbdb;
+  font-size: 2.5rem;
+}
+
+.right-about {
+  background-image: url(../../assets/about.jpg);
+  background-size: cover;
+  height: 100%;
+}
+
+.transparent {
+  background: rgba(103, 103, 103, 0.403);
+  width: 100%;
+  height: 100%;
+  padding: 8rem 0;
+}
+
+.company {
+  color: #fcbd40;
+  font-size: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  width: fit-content;
+  margin: auto;
+}
+
+.company-desc {
+  color: #dbdbdb;
+  text-align: justify;
+  width: 50%;
+  margin: auto;
+  font-size: 0.95rem;
+  padding-top: 1rem;
+}
+
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+@media screen and (max-width: 1024px) {
+  .about,
+  .left-about,
+  .about-title,
+  .right-about {
+    height: 100%;
+  }
+
+  .transparent {
+    padding: 5rem 0;
+  }
+  .about-title {
+    font-size: 1.5rem;
+  }
+
+  .company {
+    font-size: 1.5rem;
+    padding: 0 0 1.5rem 0;
+  }
+
+  .company-desc {
+    font-size: 0.8rem;
+    width: 60%;
+  }
+}
+
+/* MEDIA QUERIES (SMALL DEVICES) */
+@media screen and (max-width: 600px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about,
+  .left-about,
+  .about-title,
+  .right-about {
+    height: 100%;
+  }
+
+  .transparent {
+    padding: 4rem 0;
+  }
+  .about-title {
+    font-size: 1.5rem;
+    padding: 1.5rem 0;
+  }
+
+  .company {
+    font-size: 1.5rem;
+    padding: 0 0 1rem 0;
+  }
+
+  .company-desc {
+    font-size: 0.7rem;
+    width: 65%;
+  }
+}

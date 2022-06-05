@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&family=Mukta:wght@400;500&display=swap");
+
+/* Beranda */
+.beranda {
+  background-image: url("../../assets/header.jpg");
+  background-size: cover;
+}
+
+.beranda-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.beranda-transparent {
+  background: #bbbbbb73;
+  width: 100%;
+  height: 100%;
+  padding: 2rem 0rem 4rem 0rem;
+  box-shadow: 5px 0 8px -5px rgba(60, 60, 60, 0.566);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.beranda-left {
+  padding: 0 2rem;
+}
+
+.beranda-left > small {
+  font-family: "Mukta", sans-serif;
+  font-weight: lighter;
+  font-size: 2rem;
+  color: #e49b0a;
+}
+
+.beranda-left > h2 {
+  font-family: "Cardo", serif;
+  font-size: 3.5rem;
+  margin-top: 0.5rem;
+}
+
+.beranda-right {
+  padding: 2rem 0 4rem 0;
+}
+
+.beranda-icon {
+  font-size: 2.5rem;
+  color: #364954;
+}
+
+.location-wrap {
+  display: grid;
+  gap: 2rem;
+}
+
+.beranda-right-title {
+  font-size: 1.7rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  color: #364954;
+  color: black;
+}
+
+.location {
+  width: 50%;
+  margin: auto;
+  border-radius: 2rem;
+  color: white;
+  border: 2.5px solid #fcbd40;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 1.2rem;
+  transition: all 300ms ease-in;
+}
+
+.location.b1 {
+  background-image: url(../../assets/location/B1.png);
+  background-size: cover;
+}
+.location.b2 {
+  background-image: url(../../assets/location/B2.png);
+  background-size: cover;
+}
+.location.b3 {
+  background-image: url(../../assets/location/B3.png);
+  background-size: cover;
+}
+
+.location:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.location > h5 {
+  padding-top: 0.25rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: black;
+}
+
+.about-small {
+  color: #364954;
+}
+
+/* End of Beranda */
+
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+@media screen and (max-width: 1024px) {
+  /* BERANDA */
+  .beranda-transparent {
+    padding: 5rem 0;
+  }
+  .beranda h2 {
+    font-size: 2.8rem;
+  }
+
+  .beranda-icon {
+    font-size: 3rem;
+  }
+
+  .beranda-right {
+    padding: 4rem 0;
+  }
+
+  .location > h5 {
+    padding-top: 0.25rem;
+  }
+
+  .location {
+    width: 70%;
+    padding: 0.8rem;
+  }
+}
+
+/* MEDIA QUERIES (SMALL DEVICES) */
+@media screen and (max-width: 600px) {
+  /* BERANDA */
+
+  .beranda {
+    background-image: url("../../assets/header2.jpg");
+    background-size: cover;
+  }
+
+  .beranda-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .beranda-transparent {
+    padding: 1.5rem 0;
+  }
+
+  .beranda h2 {
+    font-size: 2rem;
+    margin-bottom: 0rem;
+  }
+
+  .beranda-right {
+    padding: 3rem 0;
+  }
+
+  .beranda-logo {
+    margin-bottom: 0;
+    width: 10rem;
+  }
+
+  .beranda-left > small {
+    font-size: 1.4rem;
+  }
+
+  .beranda-left > h2 {
+    font-size: 2.1rem;
+  }
+}

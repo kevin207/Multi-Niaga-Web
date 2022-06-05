@@ -1,0 +1,103 @@
+/* Produk */
+
+.produk .container-section {
+  margin: auto;
+  width: 80%;
+}
+
+.produk {
+  background: #ffffff;
+  padding: 9rem 0 7rem 0;
+}
+
+.produk-title {
+  margin-bottom: 4.5rem;
+  font-size: 2rem;
+}
+
+.house-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2rem;
+
+  justify-items: center;
+}
+
+.media_vid {
+  width: 80%;
+}
+
+.house-img:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.house-img {
+  width: 100%;
+  border-radius: 0.8rem;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  cursor: pointer;
+}
+
+.product-modal-img {
+  width: 30rem;
+}
+/* End of Produk */
+
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+@media screen and (max-width: 1024px) {
+  /* PRODUK */
+
+  .produk {
+    padding: 5rem 0 5rem 0;
+  }
+
+  .house-wrap {
+    display: grid;
+    gap: 1.5rem;
+  }
+
+  .house-img {
+    width: 95%;
+    margin-bottom: 0.5rem;
+  }
+
+  .product-modal-img {
+    width: 20rem;
+  }
+}
+
+/* MEDIA QUERIES (SMALL DEVICES) */
+@media screen and (max-width: 600px) {
+  /* PRODUK */
+  .house-wrap {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .produk {
+    padding: 4rem 0;
+  }
+
+  .house-img {
+    width: 80%;
+    margin-bottom: 0.1rem;
+  }
+
+  .product-modal-img {
+    width: 18rem;
+  }
+
+  .produk-title {
+    margin-bottom: 3rem;
+  }
+
+  .css-1sq49jm,
+  .css-80n5op,
+  .css-15rw39t {
+    animation-delay: 0ms !important;
+  }
+}

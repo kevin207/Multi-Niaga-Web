@@ -1,0 +1,13 @@
+section {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 3rem;
+  font-size: 1.6rem;
+}
+
+.container-section {
+  margin: auto;
+  width: 82.5%;
+}
