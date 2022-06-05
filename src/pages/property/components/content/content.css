@@ -1,11 +1,12 @@
 .content-container {
   text-align: center;
   background: #ffffff;
+  min-height: 100vh;
 }
 
 .content-wrap {
   width: 75%;
-  padding: 3rem 0 3rem 0;
+  padding: 4rem 0;
   margin: auto;
 }
 

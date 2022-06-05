@@ -16,7 +16,7 @@ const Header = () => {
           <NavDropdown title="Lokasi" id="navbarScrollingDropdown">
             <NavDropdown.Item href="#action1">Rajabasa</NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="#action2">Sukarame</NavDropdown.Item>
+            <NavDropdown.Item href="#action2">Korpri</NavDropdown.Item>
           </NavDropdown>
         </Nav>
       </Navbar.Collapse>

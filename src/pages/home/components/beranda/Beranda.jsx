@@ -28,7 +28,7 @@ const Beranda = () => {
               <div
                 className="location b1"
                 onClick={() => {
-                  navigate("/property");
+                  navigate("/property/rajabasa");
                 }}
               >
                 <TiLocation className="beranda-icon" />
@@ -41,7 +41,7 @@ const Beranda = () => {
               <div
                 className="location b2"
                 onClick={() => {
-                  navigate("/property");
+                  navigate("/property/korpri");
                 }}
               >
                 <TiLocation className="beranda-icon" />

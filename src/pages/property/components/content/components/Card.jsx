@@ -29,19 +29,19 @@ const Card = (data) => {
         <Modal.Body className="modal_container">
           <Carousel>
             <div className="carousel-img-wrap">
-              <img src={data.image} className="card-img-modal" alt="home img" />
+              <img src={data.image[0]} className="card-img-modal" alt="home img" />
             </div>
             <div className="carousel-img-wrap">
-              <img src={data.image} className="card-img-modal" alt="home img" />
+              <img src={data.image[1]} className="card-img-modal" alt="home img" />
             </div>
             <div className="carousel-img-wrap">
-              <img src={data.image} className="card-img-modal" alt="home img" />
+              <img src={data.image[0]} className="card-img-modal" alt="home img" />
             </div>
             <div className="carousel-img-wrap">
-              <img src={data.image} className="card-img-modal" alt="home img" />
+              <img src={data.image[1]} className="card-img-modal" alt="home img" />
             </div>
             <div className="carousel-img-wrap">
-              <img src={data.image} className="card-img-modal" alt="home img" />
+              <img src={data.image[0]} className="card-img-modal" alt="home img" />
             </div>
           </Carousel>
 
@@ -137,11 +137,11 @@ const Card = (data) => {
     <>
       <div className="card-container" onClick={() => setModalShow(true)}>
         <div className="card-top">
-          <img className="card-img" src={data.image} alt="home img"></img>
+          <img className="card-img" src={data.image[0]} alt="home img"></img>
           <div className="card-desc">
             <div className="property-title">{data.nama}</div>
             <div className="property-desc-title">Deskripsi Singkat</div>
-            <div className="property-desc">Rumah minimalis nyaman dan siap huni lengkap dengan segala perabotan rumah</div>
+            <div className="property-desc">{data.desc}</div>
             <div className="property-address">
               <tbody>
                 <tr>
